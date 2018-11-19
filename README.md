@@ -1,15 +1,30 @@
 # Tuple's landing page
 
-## Developing
+To get started, clone the project and install the dependencies:
 
-1. Install deps: `yarn`
+```
+# Using npm
+npm install
 
-2. Watch for changes and recompile CSS: `yarn watch
+# Using Yarn
+yarn
+```
 
-3. See your work by opening `./index.html` in your browser.
+After that, start up Webpack Development Server:
 
-## Deploy
+```
+yarn run dev
+```
 
-The site is deployed automatically to Netlify when you push.
+Webpack Development Server will watch `/src/styles.css` and `/tailwind.js` and
+rebuild your stylesheet on every change.
 
-You can configure that here: https://app.netlify.com/sites/tuple-landing-page.
+You can play around with `/index.html` to see the effects of your changes.
+
+To build a production bundle run:
+
+```
+npm run prod
+```
+
+After that you will have a ready to deploy bundle at `/dist`
