@@ -24,3 +24,8 @@ yarn prod
 ```
 
 After that you will have a ready to deploy bundle at `/dist`
+
+
+TODO:
+  - fix /thanks and /thanks-after-confirmation to load in dev
+  - fixup images and stuff in those pages
