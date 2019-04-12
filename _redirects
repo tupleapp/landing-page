@@ -2,3 +2,4 @@
 /assets/* https://pair-programming-guide.netlify.com/assets/:splat 200
 /pair-programming-guide/* https://pair-programming-guide.netlify.com/:splat 200
 /security https://www.notion.so/tupleapp/Tuple-Security-Details-c877144b32bd4ab0abe7f66c6a104f4e
+/roadmap https://www.notion.so/tupleapp/Tuple-s-Product-Roadmap-c0c4dc1297ec4158b11127885ccc5a13
